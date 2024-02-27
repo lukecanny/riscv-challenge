@@ -20,4 +20,8 @@ Block 4 - Set all the signals of the RV cores to zero, and assert the reset sign
 Block 5 - Write 0 to all memory blocks (0-63)
         ######## What are bits 13/14 doing???????
 
-Block 6 - 
+Block 6 - Write "data" to the core 1 memory
+
+Block 7 - Write to each instruction memory (14/13 set to 00 to do so)
+
+Block 8 - Runs the instructions from instruction memory (Steps for 300 times)
