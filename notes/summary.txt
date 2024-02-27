@@ -17,4 +17,7 @@ Block 3 - Create instruction memory arrays in the following form:
 Block 4 - Set all the signals of the RV cores to zero, and assert the reset signal 
     # Note it is possibly happening in the wrong order? 0 to 1. Instead of 1 to 0.
 
-Block 5 - 
+Block 5 - Write 0 to all memory blocks (0-63)
+        ######## What are bits 13/14 doing???????
+
+Block 6 - 
