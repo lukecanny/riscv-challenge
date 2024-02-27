@@ -15,6 +15,9 @@ main:
  jal x1, extract_value_one	# Extract nibble from the first value given (stored in x3)
  jal x1, extract_value_two	# Extract nibble from the second value given (stored in x5)
  jal x1, swap				# Swap the two nibbles
+ stall_loop:                # Stall the program forever
+  nop
+  j stall_loop
 
 extract_value_one:
  addi x7,x0, 0xf			
