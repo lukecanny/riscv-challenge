@@ -1,6 +1,10 @@
-# This repo for mostly for testing, it isn't quite sure what it might be yet.
+# Observed Memory Mapping
 
-We believe in it tho
+14:13 - 00 = Instruction Memory
+
+14:13 - 10 = Memory
+
+14:13 - 01 = Register Banks
 
 # Operations
 
@@ -18,20 +22,17 @@ We believe in it tho
 
 # Summary of Notebook
 
-- 0
-- 1
-- 2
-- 3
-- 4
-- 5
-- 6
-- 7
-- 8
-- 9
-- 10
-- 11
-- 12
-- 13
-- 14
-- 15
-- 16
+- 0 - Import Libs
+- 1 - Fill Array with Sample Data
+- 2 - Create signals
+- 3 - Load IM arrays
+- 4 - Set inital signals of RVs
+- 5 - Write 0 to all mem blocks
+- 6 - Write "data" to core 1 mem block
+- 7 - Write to IM
+- 8 - Run instructions
+- 9 - Read IM
+- 10 - Read MEM
+- 11 - Read RBs
+- 12 - Save RB.txt, MEM.txt, IM.txt
+- 13 - C Compiler?
