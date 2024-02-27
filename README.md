@@ -4,10 +4,17 @@ We believe in it tho
 
 # Operations
 
-**Clear (Write) Memory Bank** - 
-**Write Instruction Memory** - 
-**Read Memory Bank** - 
-**Read Instruction Memory** - 
+**Clear Memory Bank** - Block 5
+
+**Write Memory Bank** - Block 6
+
+**Write Instruction Memory** - Block 7 
+
+**Read Memory Bank** - Block 10
+
+**Read Instruction Memory** - Block 8
+
+**Read Register Banks** - Block 11
 
 # Summary of Notebook
 
