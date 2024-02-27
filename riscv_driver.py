@@ -31,5 +31,11 @@ class RISCV_App():
     def read_core_1_instruction_mem(self):
         pass
 
-    def run_clock_cycles(self, number):
+    def write_core_0_instruction_mem(self, im=None,filename=None):
+        pass
+
+    def write_core_1_instruction_mem(self, im=None,filename=None):
+        pass
+
+    def run_clock_cycle(self, number=1):
         pass
