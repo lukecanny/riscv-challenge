@@ -30,4 +30,8 @@ Block 9 - Completes a read of the instruction memory for both cores
 
 Block 10 - Completes a read of memory for both cores (0x43 to 0x0, 67-0)
 
-Block 11 - 
+Block 11 - Register banks
+
+Block 12 - Saves all data as files (RB.txt, MEM.txt, IM.txt)
+
+Block 13 - C compiler?
