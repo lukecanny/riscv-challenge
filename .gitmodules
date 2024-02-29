@@ -1,0 +1,4 @@
+[submodule "asm_examples/swapX3DigitX4WithX5DigitX6"]
+	path = asm_examples/swapX3DigitX4WithX5DigitX6
+	url = git@github.com:lukecanny/RISC-V_swapX3DigitX4WithX5DigitX6.git
+	branch = main
