@@ -36,3 +36,13 @@
 - 11 - Read RBs
 - 12 - Save RB.txt, MEM.txt, IM.txt
 - 13 - C Compiler?
+
+# Raspberry Pi Cam commands 
+
+```
+./mjpg_streamer -i "./input_uvc.so -d /dev/video0 -f 1" -o "./output_http.so -p 8080 -w ./www"
+```
+
+```
+ngrok start --config=.config/ngrok/ngrok.yml
+```
